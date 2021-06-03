@@ -1,0 +1,25 @@
+{
+  "name": "role-assign-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charliemirabile/role-assign-bot.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/charliemirabile/role-assign-bot/issues"
+  },
+  "homepage": "https://github.com/charliemirabile/role-assign-bot#readme",
+  "dependencies": {
+    "@replit/database": "^2.0.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  }
+}
