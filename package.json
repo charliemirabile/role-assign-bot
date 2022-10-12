@@ -1,7 +1,7 @@
 {
   "name": "role-assign-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "I wanted practice with node and with making discord bots and so when I wanted a simple bot I could use on a server to let people assign their own roles I made this. There are tons of other bots that can do as much, but often they are real swiss army knife tools with too many features and too much complexity. This bot has a simple interface—there are two pairs of commands. One for users and one for admins.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,7 +19,11 @@
   "homepage": "https://github.com/charliemirabile/role-assign-bot#readme",
   "dependencies": {
     "@replit/database": "^2.0.1",
-    "discord.js": "^12.5.3",
-    "dotenv": "^10.0.0"
-  }
+    "discord.js": "^13.9.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "node": "^16.17.1"
+  },
+  "keywords": []
 }

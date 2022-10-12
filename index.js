@@ -6,7 +6,12 @@ const db = new Database();
 
 require('dotenv').config();
 
-const client = new Discord.Client();
+const client = new Discord.Client({
+	intents: 
+    Discord.Intents.FLAGS.GUILDS |
+		Discord.Intents.FLAGS.GUILD_MESSAGES |
+		Discord.Intents.FLAGS.GUILD_MEMBERS
+});
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
